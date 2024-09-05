@@ -1,0 +1,31 @@
+{
+  "name": "frontlook-react",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.js"
+  },
+  "bin": {
+    "frontlook-react": "./dist/bundle.cjs"
+  },
+  "keywords": [
+    "frontlook"
+  ],
+  "author": "Debangan Paul Chowdhury",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.3",
+    "@types/prompts": "^2.4.9",
+    "esbuild": "0.23.1"
+  },
+  "dependencies": {
+    "@types/degit": "^2.8.6",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "conf": "^13.0.1",
+    "degit": "^2.8.4",
+    "execa": "^9.3.1",
+    "prompts": "^2.4.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@/frontlook-dev",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nx/js": "19.6.5",
+    "@nx/workspace": "19.6.5",
+    "@types/node": "^22.5.3",
+    "nx": "19.6.5"
+  }
+}
