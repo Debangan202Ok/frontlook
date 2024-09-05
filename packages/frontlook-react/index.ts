@@ -76,7 +76,13 @@ async function generateBasic(
 ) {
   if (pkg.lang === "js" && pkg.framework === "tailwind") {
     try {
-      const emitter = degit("", { cache: false, force: true });
+      const emitter = degit(
+        "https://github.com/Debangan202Ok/frontlook/templates/react-tailwind-js",
+        {
+          cache: false,
+          force: true,
+        }
+      );
       await emitter.clone(projectName);
     } catch (err) {
       console.error("Something went wrong! Please try again letter.");
