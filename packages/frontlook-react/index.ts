@@ -77,7 +77,7 @@ async function generateBasic(
   if (pkg.lang === "js" && pkg.framework === "tailwind") {
     try {
       const emitter = degit(
-        "https://github.com/Debangan202Ok/frontlook/templates/react-tailwind-js",
+        "https://github.com/Debangan202Ok/frontlook/packages/frontlook-react/templates/react-tailwind-js",
         {
           cache: false,
           force: true,
